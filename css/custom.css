@@ -135,3 +135,37 @@ body {
     color: white;
     cursor: pointer;
 }
+
+/* features-Work */
+.features-work {
+    padding: 100px 0;
+}
+
+.feature-work h1 {
+    margin-bottom: 10px;
+}
+
+.features-work p {
+    margin: 0 auto;
+    width: 800px;
+    line-height: 1.7;
+}
+
+.features-work ul {
+    margin-top: 50px;
+}
+
+.features-work ul li {
+    margin-left: 10px;
+    color: #00a8ff;
+    padding: 3px;
+    border: 2px solid #00a8ff;
+    transition: all 0.5s;
+}
+
+.features-work ul li.active,
+.features-work ul li:hover {
+    color: #FFF;
+    border: 2px solid #e55039;
+    background: #e55039;
+}
