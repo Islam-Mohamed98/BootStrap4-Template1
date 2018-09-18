@@ -27,3 +27,27 @@
 .navbar-nav .active>.nav-link {
 	color: #e55039 !important;
 }
+
+/* Slider */
+.slider {
+	background: gray;
+}
+
+.slider .carousel-item {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.slider .carousel-one {
+	background: url('../images/slider/slider1.jpeg');
+}
+
+.slider .carousel-two {
+	background: url('../images/slider/slider2.jpeg');
+}
+
+.slider .carousel-three {
+	background: url('../images/slider/slider3.jpeg');
+}
