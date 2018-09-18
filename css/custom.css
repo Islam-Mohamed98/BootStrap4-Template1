@@ -3,6 +3,9 @@
 	Author Name :
 */
 
+body {
+	height: 2000px;
+}
 
 /* NavBar */
 .navbar .navbar-brand > span {
@@ -82,3 +85,28 @@
 .slider .carousel-three {
 	background: url('../images/slider/slider3.jpeg');
 }
+
+/* Features */
+.features {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.features .feature {
+	margin-bottom: 10px;
+}
+
+.features i {
+    color: white;
+    background-color: #e55039;
+    width: 75px;
+    height: 75px;
+    line-height: 75px;
+    margin-bottom: 10px;
+}
+
+.features h3 {
+    color: #5873bb;
+    font-size: 21px;
+}
+
