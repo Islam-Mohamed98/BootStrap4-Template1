@@ -1,0 +1,29 @@
+/*
+	Theme Name : 
+	Author Name :
+*/
+
+
+/* NavBar */
+.navbar .navbar-brand > span {
+	font-size: 30px;
+}
+
+.navbar .navbar-brand span:first-child {
+	color:#4a69bd;
+	font-weight: bold;
+}
+
+.navbar .navbar-brand span:last-child {
+	color: #e55039;
+}
+
+.navbar-nav .nav-link {
+	color:#4a69bd !important;
+	padding:15px !important;
+	font-weight: 500;
+}
+
+.navbar-nav .active>.nav-link {
+	color: #e55039 !important;
+}
