@@ -121,7 +121,6 @@ body {
 }
 
 .overview p:first-of-type {
-    width: 571px;
     margin: 0 auto;
     line-height: 1.7;
     margin-bottom: 15px;
@@ -148,7 +147,6 @@ body {
 
 .features-work p {
     margin: 0 auto;
-    width: 800px;
     line-height: 1.7;
 }
 
@@ -173,7 +171,12 @@ body {
     background: #e55039;
 }
 
-.features-work .row .col-md {
+.features-work .shuffle-imgs .row {
+    margin: 0;
+}
+
+.features-work .shuffle-imgs .row .col-md {
+    transition: all 0.5s;
     padding: 0;
 }
 
