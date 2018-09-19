@@ -4,7 +4,7 @@
 */
 
 body {
-	height: 2000px;
+	height: 6000px;
 }
 
 /* NavBar */
@@ -133,6 +133,7 @@ body {
     border: none;
     outline: none;
     color: white;
+    font-weight: bold;
     cursor: pointer;
 }
 
@@ -157,9 +158,11 @@ body {
 
 .features-work ul li {
     margin-left: 10px;
+    margin-bottom: 10px;
     color: #00a8ff;
     padding: 3px;
     border: 2px solid #00a8ff;
+    font-weight: 500;
     transition: all 0.5s;
 }
 
@@ -168,4 +171,13 @@ body {
     color: #FFF;
     border: 2px solid #e55039;
     background: #e55039;
+}
+
+.features-work .row .col-md {
+    padding: 0;
+}
+
+.features-work .row img {
+    width: 100%;
+    height: auto;
 }
