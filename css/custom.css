@@ -364,3 +364,43 @@ body {
     background: #e55039;
 }
 
+/* Statistics */
+.stats {
+    padding: 100px 0;
+    color: #0984e3;
+}
+
+.stats .number {
+    display: block;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.stats p {
+    color: #e55039;
+    font-weight: bold;
+}
+
+/* Contact Us */
+.contact-us {
+    padding: 100px 0;
+    background: #e55039;
+    color: #FFF;
+}
+
+.contact-us p {
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 500;
+}
+
+.contact-us a {
+    display: inline-block;
+    border: 1px solid white;
+    padding: 10px 32px;
+    cursor: pointer;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
